@@ -166,6 +166,8 @@
     self.telphoneField.text=@"";
     self.mobilephoneField.text=@"";
     
+    self.confirmButton.enabled=NO;
+    
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Regist Information" message:@"Congratulations! You have regist successful!" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil,nil];
     [alert show];
 }
