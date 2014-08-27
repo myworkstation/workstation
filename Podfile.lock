@@ -1,0 +1,19 @@
+PODS:
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - RegexKitLite (4.0)
+
+DEPENDENCIES:
+  - ReactiveCocoa (~> 2.3.1)
+  - RegexKitLite (~> 4.0)
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  RegexKitLite: 761b4944f23cb8fe20697b2e47be0689fd832c09
+
+COCOAPODS: 0.33.1
